@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":app" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false" isTestModule="false" externalProjectId=":app">
+        <sourceSets>
+          <sourceSet>app_commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/kotlinx-coroutines-android-1.1.1.jar/a0597c6149da4fba38791854e251e405/jetified-kotlinx-coroutines-android-1.1.1.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-android/1.1.2/732ba57b7314022bcb24a6bf36d1cb4ba15cdff3/ktor-client-android-1.1.2.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client/1.1.2/65caf051f11c73e5a8d9568e45afcb8cd8b10d66/ktor-client-1.1.2.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/1.1.2/63db9d8c8d6a48aff487fde6d192150c07ba33fe/ktor-client-core-jvm-1.1.2.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-network/1.1.2/43dafdb7bb371f06bf30ec18de672bb891f30e24/ktor-network-1.1.2.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.1.2/fa57f596f6d0b555cf81aa73371aad5241c80591/ktor-http-jvm-1.1.2.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.1.2/96472e69cf652137796becf14c9a18b3fc179fac/ktor-utils-jvm-1.1.2.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io-jvm/0.1.4/12f07c9753eac74141408d7129b6346336ae1d57/kotlinx-coroutines-io-jvm-0.1.4.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.1.1/830dbee69f68af66803b8b426e0a5f48be7a7db4/kotlinx-coroutines-jdk8-1.1.1.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.1.1/3d2b7321cdef9ebf9cb7729ea4f75a6f6457df86/kotlinx-coroutines-core-1.1.1.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime/0.10.0/23d777a5282c1957c7ce35946374fff0adab114c/kotlinx-serialization-runtime-0.10.0.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/kotlin-reflect-1.3.20.jar/cea89384fa0e35354c653990d49287b6/jetified-kotlin-reflect-1.3.20.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-jvm/0.1.4/831f297fc9808a3f5361815bb09a22b318b422fa/kotlinx-io-jvm-0.1.4.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.12.1/ea8088595d2d1ddf8f3dd1729b25ae5b09c7c17e/atomicfu-0.12.1.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.20/b1f3cb184c4ce4139741454df2f8fca5320f822d/kotlin-stdlib-jdk8-1.3.20.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.20/aa17d6fd473ce53061a7b2b9d2ae96f547cae93d/kotlin-stdlib-jdk7-1.3.20.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.20/eb2a232734e09fcd1b958a5c7520a93c6de38b32/kotlin-stdlib-1.3.20.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/5b4062f411fc74463c81b2290bec1291/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/7b64a320af2aa2df3083ee2b09b59fa4/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/0381dbe6e795bd9c9e6ef3b9abfee72e/jars/classes.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io/0.1.4/ded464563533dec250e0a9ad502986817e738a4b/kotlinx-coroutines-io-0.1.4.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.1.1/7ed04382bdf0c89c5d87ac462aa4935ae8e85243/kotlinx-coroutines-core-common-1.1.1.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-common/0.10.0/99d20e7757c3a56eeba569b7a5939b629643d885/kotlinx-serialization-runtime-common-0.10.0.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io/0.1.4/f8da9cfe05ff9a9160bf660ceed65a300b7900c5/kotlinx-io-0.1.4.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.20/7d7934e26ce34da1a0a8d00e38038d7cf3375e89/kotlin-stdlib-common-1.3.20.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/fa81edef9825a77b5d2461b2c4772a0e/jars/classes.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.1/2cf7a6cc79732e3bdf1647d7404279900ca63eb0/config-1.3.1.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/95eb9cdb4d8e31dd26ae48ad9a9fd4a7/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/4811e62246d3905503f25fca4de31374/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/ee7fb3f78a072914ed9d409ee96d6834/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/168b5d25ec8b2477b87f978239cbac58/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/01cf8a38436da7b1b97debc97ab66ab8/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/d0ee4a472748b85b66297086b5189f88/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/1e18d239a9cde02a364a7dccf4cbe73e/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/e01686f0c6755c10532ad3fd12e8817c/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/f8d075fe4c3238870c7ac68403697955/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/a9e19ed3ee75f5a21d84cddf3f0d08c7/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/c3b2425cf2488f208c4ce540cec45e0c/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/d631baec80b75ace3802ea226b0c93c5/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/fd69b615f285efc0005d9023e00e440e/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/20a6a81dedcb62a51e7d3b61bd62a075/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/b4253a0699e1dd2ccfe9e8c9e30ee7e1/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/9ffc58d304737c4113578f0e26c09bca/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/f6e656b7bdb6ece61475d8ff922e4a57/jars/classes.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/2056f2aacfdaf85dff0835be66b1310b/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/18f9255c301a2e63c3303cdf7da05155/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/0a029952dd6b9a7bc4bcabe449eb1531/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/1a24655f61a08e1f5396f7952c188b57/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/822e66311e03c04911131397d70a9d1c/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/2bdffab5ea2f205c7f67f675507fb82f/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/67a5f0a893e83b7cf15d8fefecc38403/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/ba34b820a9767c80549b882ccb91ea85/jars/classes.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/71949548268eb197b9e1e6b983bc8b62/jars/classes.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar:/Users/ventuz/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/dc20036c6243cf72887baccba5dbf702/jars/classes.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar:/Users/ventuz/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.12.1/f53bf7f1332fc363c218f043121eac0c6cb2d8ab/atomicfu-common-0.12.1.jar:/Users/ventuz/Library/Android/sdk/platforms/android-28/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.20/b1016507a951b0cfaae431079ec0ac6847d56d8c/kotlin-android-extensions-1.3.20.jar" />
+              <option value="$KOTLIN_BUNDLED$/lib/kotlinx-serialization-compiler-plugin.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>
